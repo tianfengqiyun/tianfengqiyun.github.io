@@ -1,0 +1,209 @@
+#column{
+  /*display: none;*/
+  position: absolute;
+  left: 90px;
+  /*width: 320px;*/
+  width: 310px;
+  height: 800px;
+  background: #363f48;
+  /*background: pink;*/
+}
+
+#column .hot{
+  width: 100%;
+  height: 350px;
+  margin-top: 95px;
+  list-style: none;
+  padding: 0px;
+  /*background: yellow;*/
+}
+
+
+#column .hot li{
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  /*background: black;*/
+}
+
+#column .hot li:hover{
+  background-color:#414954;
+  cursor:pointer;
+}
+
+
+#column .hot li img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: -50px;
+}
+
+
+#column .hot li .span1{
+  display: inline-block;
+  position: relative;
+  width: 190px;
+  height: 20px;
+  top: -25px;
+  left: 15px;
+  color: white;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /*background: blue;*/
+}
+
+#column .hot li .span1 span{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  font-size: 8px;
+  background: red;
+}
+
+
+ #column .hot li .span2{
+  display: inline-block;
+  position: relative;
+  width: 190px;
+  height: 20px;
+  top: -20px;
+  left: 11px;
+  color: #6a7780;
+  font-size: 5px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /*background: red;*/
+}
+
+
+
+
+
+/*接下来属于搜索框的样式*/
+
+#column .search{
+  position: relative;
+  width: 280px;
+  height: 25px;
+  top: 25px;
+  background: #363f48;
+  float: left;
+}
+
+#column .search img{
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+
+
+ #column .search img:hover{
+  cursor: pointer;
+}
+
+#column .search span{
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 258px;
+  width: 21px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 11px;
+  background: #303942;
+  color: #697581;
+  font-size: 15px;
+}
+
+#column .search span:hover{
+  cursor: pointer;
+}
+
+
+
+#column .search input{
+  display: inline-block;
+  width: 180px;
+  height: 25px;
+  margin-left: 20px;
+  padding-left: 50px;
+  background: #303942;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  color: #697581;
+  /*text-align: center;*/
+}
+
+
+/*接下来是微信好友状态图标的位置*/
+
+#column .state{
+  position: absolute;
+  top: 90px;
+  left: 266px;
+  /*width: 35px;
+  height: 330px;*/
+  padding: 0px;
+  list-style: none;
+  /*background: pink;*/
+}
+
+#column .state li{
+  width: 35px;
+  margin-bottom: 20px;
+  /*background: black;*/
+}
+
+#column .state li span{
+  display: block;
+  width: 35px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 8px;
+  margin-bottom: 10px;
+  color: #69767f;
+  /*background: red;*/
+}
+
+#column .state li div{
+  width: 13px;
+  height: 19px;
+  margin-left: 20px;
+  /*background: white;*/
+}
+
+
+#column .state li div img{
+  display: block;
+}
+
+#column .state li div img:hover{
+  cursor: pointer;
+  background: red;
+}
+
+#column .state li:last-child span{
+  display: block;
+  width: 35px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background: #2f3841;
+}

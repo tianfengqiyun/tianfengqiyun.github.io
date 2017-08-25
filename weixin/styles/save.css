@@ -1,0 +1,112 @@
+
+
+.msg-arena .pastchats li {
+  width: 400px;
+  background: yellow;
+  margin-bottom: 50px;
+  word-wrap: break-word;
+  word-break: break-all;
+  clear: both;
+}
+
+.msg-arena .pastchats li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  float: left;
+}
+
+.msg-arena .pastchats li span {
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  padding: 5px;
+  top: 7px;
+  margin-left: 50px;
+  font-size: 8px;
+  background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.msg-arena .pastchats li {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  word-break: break-all;
+  word-wrap: break-word;
+  clear: both;
+  /*background: #00cccc;*/
+}
+
+
+.msg-arena .pastchats li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 12px;
+}
+
+.msg-arena .pastchats li span {
+  display: inline-block;
+  position: absolute;
+  /*width: 210px; 这里不必限制宽度，因为你不知道会打多少字数，直接设置左右padding就行*/
+  /*height: 30px; 这里也不必限制高度，因为你不知道会打多少字数，直接设置左右padding就行*/
+  top: 7px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 8px;
+  color: #9ba9b4;
+  background: white;
+}
+/*下面的样式之所以简短，是因为上面有共同的样式已经设置了，只需要设置些独有的就行*/
+
+.msg-arena .pastchats li:nth-child(2) {
+  width: 300px;
+  text-align: right;
+  float: right;
+}
+
+.msg-arena .pastchats li:nth-child(2) img {
+  margin-right: 20px;
+  margin-left: 12px;
+}
+
+.msg-arena .pastchats li:nth-child(2) span {
+  color: white;
+  right: 70px;
+  background: #55d58b;
+}

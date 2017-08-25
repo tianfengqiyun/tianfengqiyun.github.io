@@ -1,0 +1,52 @@
+.avatar{
+ display: block;
+ position: absolute;
+ width: 60px;
+ height: 60px;
+ top: 10px;
+ left: 15px;
+ margin-bottom: 40px;
+ border-radius: 30px;
+}
+
+.avatar{
+  cursor: pointer;
+}
+
+.sidebar{
+  position: absolute;
+  top: 80px;
+  left: -40px;
+  list-style-type: none;
+}
+
+.sidebar li{
+  width: 90px;
+  height: 70px;
+  /*background: pink;*/
+}
+
+.sidebar li:last-child{
+ margin-top: 270px;
+}
+
+.sidebar li:hover{
+  cursor: pointer;
+  background: #363f48;
+  border-left: 2px solid #55d58b;
+}
+
+.sidebar li img{
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+
+.sidebar li:nth-child(even) img{
+ margin-left: 30px;
+}
+
+
+.sidebar li:nth-child(6) img{
+ margin-left: 30px;
+}

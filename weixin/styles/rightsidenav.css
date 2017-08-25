@@ -1,0 +1,157 @@
+.rightside-nav .img1{
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+
+.rightside-nav .img1:hover{
+  cursor: pointer;
+}
+
+/*以下是one无序列表的样式*/
+
+.rightside-nav .one{
+  position: relative;
+  right: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+.rightside-nav .one li:first-child{
+  font-size: 18px;
+  margin-bottom: 10px;
+  /*background: pink;*/
+}
+
+.rightside-nav .one li:last-child{
+  font-size: 13px;
+  color: #d7dfe2;
+  margin-bottom: 30px;
+  /*background: red;*/
+}
+
+/*以下是two无序列表的样式*/
+
+.rightside-nav .two{
+  list-style: none;
+  font-size: 13px;
+  color: #d7dfe2;
+  padding: 0px;
+  padding-left: 20px;
+  /*background: red;*/
+}
+
+.rightside-nav .two li{
+  margin-bottom: 20px;
+}
+
+.rightside-nav .two li:last-child{
+  margin-top: 50px;
+}
+
+.rightside-nav .two li img{
+  margin: 0 3px -3px 0;
+  margin-right: 10px;
+}
+
+.rightside-nav .two li:nth-child(3) img{
+  margin-left: 2px;
+}
+
+.rightside-nav .two li:nth-child(odd) span{
+  margin-left: 3px;
+}
+
+.rightside-nav .two li img:hover{
+  cursor: pointer;
+}
+
+/*下面是img2这张单图的样式*/
+.rightside-nav .img2{
+  width: 160px;
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 7px;
+}
+
+
+.rightside-nav .img2:hover{
+  cursor: pointer;
+}
+
+
+  .rightside-nav .time{
+    margin-top: 10px;
+    font-size: 8px;
+    color: #d7dfe2;
+    text-align: center;
+  }
+
+  .rightside-nav .time img{
+    margin: 0 3px -3px 0;
+    margin-left: 80px;
+  }
+
+  .rightside-nav .time img:hover{
+    cursor: pointer;
+  }
+
+/*下面是moreactivity更多图片状态的样式*/
+
+  .rightside-nav .moreactivity{
+    width: 160px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 7px;
+    font-size: 15px;
+    text-align: center;
+    color: #9aa8b1;
+    background: #e7e6ec;
+  }
+
+  .rightside-nav .moreactivity:hover{
+    cursor: pointer;
+  }
+
+  .rightside-nav .moreactivity ul{
+    position: relative;
+    width: 30px;
+    height: 15px;
+    top: 50px;
+    left: 65px;
+    border-radius: 18px;
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    background: #d5dce2;
+  }
+
+  .rightside-nav .moreactivity ul:hover{
+    cursor: pointer;
+  }
+
+  .rightside-nav .moreactivity ul li{
+    position: relative;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    top: -6px;
+    left: 5px;
+    margin-right: -3px;
+    border-radius: 6px;
+    background: #e7e6ec;
+  }
+
+  .rightside-nav .moreactivity ul li:first-child{
+    margin-right: -2px;
+  }
+
+  .rightside-nav .moreactivity span{
+    position: relative;
+    top: 40px;
+  }
