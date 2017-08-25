@@ -1,6 +1,6 @@
 # tianfengqiyun.github.io
 我的个人网站
- > <a href="http://tianfengqiyun.github.io" target="_blank">[天风启云]</a>
+ > <a href="http://tianfengqiyun.github.io" target="_blank">天风启云</a>
 
 ## 操作步骤
 0. git status #可查看当前repo的文件状态
