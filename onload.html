@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript" src="./scripts/jquery.js"></script>
+<script type="text/javascript">
+        $(function () {
+            //获取文本框默认值
+            var txt = $("#search").val();
+            //focus()获取焦点事件
+            $("#search").focus(function () {
+                if ($(this).val() == txt) {
+                    $(this).val("");
+                }
+            });
+            //blur()失去焦点事件
+            $("#search").blur(function () {
+                if ($(this).val() == "") {
+                    $(this).val(txt);
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+ <input id="search" type="text" value="百度一下，你就知道"/><input id="btn" type="button" value="搜索" />
+</body>
+</html>
+
+</body>
+</html>

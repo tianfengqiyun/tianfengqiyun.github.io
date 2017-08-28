@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>火鸟</title>
+    <style media="screen">
+
+      #img {
+       position: relative;
+      }
+
+    </style>
+  </head>
+  <body>
+    <img src="./images/timg.gif" alt="" id="img"><br>
+    <button>飞翔吧</button><br>
+    <p>兰兰，come!听说你表哥从乡下过来啦？那得看看呀！</p>
+    <script type="text/javascript" src="./scripts/jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $("button").click(function(){
+           $("img").animate({
+              left:'1000px',
+              opacity:'0',
+              height:'0px',
+              width:'0px'},
+              16000);
+            });
+      });
+
+    jQuery(function(){ //直接使用 jQuery，无需调用"jQuery.noConflict()"函数
+      jQuery("p").click(function(){
+      alert( jQuery(this).text());
+    });
+    });
+    </script>
+  </body>
+</html>
